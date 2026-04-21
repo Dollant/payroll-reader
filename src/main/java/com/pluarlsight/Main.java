@@ -14,8 +14,11 @@ public class Main {
             BufferedReader reader = new BufferedReader(new FileReader(fileName));
 
             String line;
-
             reader.readLine();
+
+            while ((line = reader.readLine()) !=null) {
+
+            }
         } catch (IOException e) {
 
         }
