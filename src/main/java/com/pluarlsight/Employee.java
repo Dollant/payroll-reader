@@ -6,4 +6,12 @@ public class Employee {
     private String name;
     private double hoursWorked;
     private double payRate;
+
+    public Employee(int employeeId, String name, double hoursWorked, double payRate) {
+        this.employeeId = employeeId;
+        this.name = name;
+        this.hoursWorked = hoursWorked;
+        this.payRate = payRate;
+    }
 }
+
